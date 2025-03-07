@@ -5,16 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-logo',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <div class="logo-container" 
-         [class.fade-out]="isHidden"
-         [class.fade-in]="!isHidden">
-      <img src="assets/logo.png" 
-           alt="Logo" 
-           style="max-width: 200px; height: auto;"
-           (error)="handleImageError($event)">
-    </div>
-  `,
+  templateUrl: './logo.component.html',
   styles: [`
     :host {
       display: block;
