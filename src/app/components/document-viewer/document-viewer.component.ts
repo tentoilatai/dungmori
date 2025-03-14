@@ -4,12 +4,11 @@ import { DocumentService } from '../../services/document.service';
 import { Category, Document } from '../../models/document.model';
 import { LogoComponent } from '../logo/logo.component';
 import { SafeUrlPipe } from '../../pipes/safe-url.pipe';
-import { MusicComponent } from "../music/music.component";
 
 @Component({
   selector: 'app-document-viewer',
   standalone: true,
-  imports: [CommonModule, LogoComponent, SafeUrlPipe, MusicComponent],
+  imports: [CommonModule, LogoComponent, SafeUrlPipe],
   templateUrl: './document-viewer.component.html',
 })
 export class DocumentViewerComponent {
