@@ -67,7 +67,7 @@ body {
 
 .document-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 24px;
   padding: 20px;
   margin-bottom: 40px;
@@ -81,6 +81,7 @@ body {
   transition: all var(--transition-speed) ease;
   cursor: pointer;
   border: 2px solid transparent;
+  height: auto;
 }
 
 .category-card:hover {
