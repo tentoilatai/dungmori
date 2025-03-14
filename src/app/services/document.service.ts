@@ -8,45 +8,33 @@ export class DocumentService {
   private categories: Category[] = [
     {
       id: '1',
-      name: 'Quy chế',
-      avatar: 'https://api.dicebear.com/7.x/avatars/svg?seed=education',
+      name: 'Tài liệu N5',
+      avatar: 'https://dungmori.b-cdn.net/cdn/course/small/1733791122_481455_67471.png',
       documents: [
         {
           id: '1',
-          title: 'Quy chế Công tác sinh viên',
+          title: 'Bài 1',
           driveUrl: 'https://cmcu.edu.vn/CTSV/NOI-QUY-HOC-DUONG.pdf'
         },
         {
           id: '2',
-          title: 'Tài liệu JavaScript',
+          title: 'Bài 2',
           driveUrl: 'https://drive.google.com/file/d/your-file-id/preview'
         }
       ]
     },
     {
       id: '2',
-      name: 'Tài liệu tham khảo',
-      avatar: 'https://api.dicebear.com/7.x/avatars/svg?seed=reference',
+      name: 'Tài liệu N4',
+      avatar: 'https://dungmori.b-cdn.net/cdn/course/small/1733791130_493800_73052.png',
       documents: [
         {
           id: '1',
-          title: 'Hướng dẫn sử dụng',
+          title: 'Bài 1',
           driveUrl: 'https://drive.google.com/file/d/your-file-id/preview'
         }
       ]
     },
-    {
-      id: '3',
-      name: 'Tài liệu tham khảo',
-      avatar: 'https://api.dicebear.com/7.x/avatars/svg?seed=reference',
-      documents: [
-        {
-          id: '1',
-          title: 'Hướng dẫn sử dụng',
-          driveUrl: 'https://drive.google.com/file/d/your-file-id/preview'
-        }
-      ]
-    }
   ];
 
   getCategories(): Category[] {
